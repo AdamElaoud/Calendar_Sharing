@@ -1,0 +1,43 @@
+.login-container {
+    border: 3px solid #a6a6a6;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 10px auto 30px;
+    max-width: 60%;
+}
+
+.jumbotron {
+	background-color: #ffb499;
+	text-align: center;
+}
+
+.login-h1 {
+	color: white;
+	font: 'verdana';
+	font-style: italic;
+}
+
+.btn-primary {
+	background-color: #ffb499;
+	border: coral;
+	color: white;
+
+}
+
+.btn-primary:hover {
+	background-color: #ff571a;
+}
+
+.text-box {
+	border: 2px solid #ffc7b3;
+	border-radius: 5px;
+	font: 'verdana';
+	padding-left: 10px;
+	font-style: italic;
+}
+
+.background {
+	background-color: #a6a6a6;
+	height: 100%;
+    overflow: scroll;
+}

@@ -1,0 +1,23 @@
+.column {
+    float: left;
+    width:50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@keyframes test {
+    from {background-color:red;}
+    to {background-color: yellow;}
+}
+
+.animate-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: test;
+    animation-duration: 4s;
+}

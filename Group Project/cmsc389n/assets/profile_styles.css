@@ -1,0 +1,36 @@
+#profile-page {
+    display: flex;
+    flex-direction: column;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#pic {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+}
+
+#update {
+    margin: auto;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule {
+    float: left;
+    text-align: center;
+}
